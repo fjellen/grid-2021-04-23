@@ -1,0 +1,82 @@
+body {
+    margin-left: 47rem;
+}
+
+p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.grid-parent {
+    background-color: red;
+    height: 300px;
+    width: 300px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.grid-child {
+    background-color: pink;
+    border: 0.5rem solid red;
+}
+.grid-parent-2 {
+    background-color: red;
+    height: 300px;
+    width: 300px;
+    display: grid;
+    grid-template-columns: 20% auto;
+}
+.grid-child-2{
+    background-color: pink;
+    border: 0.5rem solid red;
+}
+
+.grid-parent-3{
+    background-color: red;
+    height: 300px;
+    width: 300px;
+    display: grid;
+    grid-template-columns: 20% auto auto;
+}
+.grid-child-3{
+    background-color: pink;
+    border: 0.5rem solid red;
+}
+
+
+.grid-parent-rows {
+    background-color: red;
+    height: 300px;
+    width: 300px;
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+
+.grid-child-rows{
+    background-color: pink;
+    border: 0.5rem solid red;
+}
+.grid-parent-rows-2 {
+    background-color: red;
+    height: 300px;
+    width: 300px;
+    display: grid;
+    grid-template-rows: 20% auto;
+}
+.grid-child-rows-2{
+    background-color: pink;
+    border: 0.5rem solid red;
+}
+
+.grid-parent-rows-3{
+    background-color: red;
+    height: 300px;
+    width: 300px;
+    display: grid;
+    grid-template-rows: 20% auto auto;
+}
+.grid-child-rows-3{
+    background-color: pink;
+    border: 0.5rem solid red;
+}
